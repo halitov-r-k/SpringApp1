@@ -1,0 +1,115 @@
+Создание проекта maven with Archetype: org.apache.maven.archetypes: maven-archetype-webapp.
+The archetype defines the folder structure.
+
+Add dependencies to libraries.
+https://mvnrepository.com/
+spring-core
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-core</artifactId>
+    <version>5.3.19</version>
+</dependency>
+
+spring-beans
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-beans</artifactId>
+    <version>5.3.19</version>
+</dependency>
+
+spring-context
+
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>5.3.19</version>
+</dependency>
+
+Import dependencies to libraries.
+
+Create directories:
+    in folder main:
+        1. resources
+            Mark directory as Resources Root
+        2. java (для хранения java-code)
+            Mark directory as Sources Root
+
+Spring облегчает создание объектов.
+SpringFramework можно делегировать создание классов.
+В созданном Main class обратимся к ApplicationContext и получим созданный объект.
+В java folder создем package: как GroupId (AlishevStudy).
+В package AlishevStudy создаю TestBean class;
+    В Spring созданный object из class называется Bean.
+
+package AlishevStudy;
+
+public class TestBean {
+    private String name;
+
+    public TestBean(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}
+
+В resources folder создаем Spring configuration file: applicationContext.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="testBean"
+        class="AlishevStudy.TestBean">
+        <constructor-arg value="Neil"/>
+    </bean>
+
+</beans>
+
+XML-format позволяет описывать конфигурацию.
+
+На основании applicationContext.xml Spring создаст Bean
+class="AlishevStudy.TestBean"> - путь к классу.
+<constructor-arg value="Neil"/> - аргумент конструктора.
+
+Нужно чтобы Spring загрузил applicationContext.xml
+
+Создание в AlishevStudy package TestSpring class
+
+package AlishevStudy;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TestSpring {
+
+    public static void main(String[] args) {
+        ClassPathXmlApplicationContext context =
+                new ClassPathXmlApplicationContext("applicationContext.xml");
+         TestBean testBean = context.getBean("testBean", TestBean.class);
+         System.out.println(testBean.getName());
+          context.close();
+    }
+}
+
+applicationContext.xml - Spring configuration file in resources folder.
+context.getBean("testBean"); - получение object
+testBean - bean id from applicationContext.xml
+TestBean.class - название получаемого класса.
+
+System.out.println(testBean.getName()); - вывод переменной на экран.
+ context.close(); - закрытие 
+
