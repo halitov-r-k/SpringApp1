@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a423b31f-e36d-4534-b88a-72c20cf1c627" name="Changes" comment="DI-1">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/musicPlayer.proporties" afterDir="false" />
+    <list default="true" id="a423b31f-e36d-4534-b88a-72c20cf1c627" name="Changes" comment="DI-2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AlishevStudy/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlishevStudy/MusicPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AlishevStudy/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlishevStudy/TestSpring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
@@ -93,6 +91,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DI-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="DI-1" />
+    <MESSAGE value="DI-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="DI-2" />
   </component>
 </project>

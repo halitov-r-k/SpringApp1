@@ -12,7 +12,10 @@
     <bean id="MusicBean" class="AlishevStudy.RockMusic">
     </bean>
 
-    <bean id="MusicPlayerBean" class ="AlishevStudy.MusicPlayer">
+    <bean id="MusicPlayerBean"
+          class ="AlishevStudy.MusicPlayer"
+          scope="prototype">
+
         <property name="music" ref = "MusicBean" />
         <property name="name" value="${musicPlayer.name}"/>
         <property name="volume" value="${musicPlayer.volume}"/>
