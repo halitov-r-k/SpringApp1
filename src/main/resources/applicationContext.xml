@@ -9,8 +9,14 @@
 
     <context:property-placeholder location="classpath:musicPlayer.properties"/>
 
-    <bean id="MusicBean" class="AlishevStudy.RockMusic">
+    <bean id="MusicBean"
+          class="AlishevStudy.ClassicalMusic"
+          init-method="doMyInit"
+          destroy-method="doDestroy"
+          factory-method="getClassicalMusic"
+    >
     </bean>
+<!--
 
     <bean id="MusicPlayerBean"
           class ="AlishevStudy.MusicPlayer"
@@ -22,5 +28,6 @@
 
         
     </bean>
+-->
 
 </beans>
