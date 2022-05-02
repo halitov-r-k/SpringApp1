@@ -11,7 +11,7 @@ public class MusicPlayer {
     public void setName(String name) {
         this.name = name;
     }
-
+    private int volume;
     public int getVolume() {
         return volume;
     }
@@ -20,8 +20,10 @@ public class MusicPlayer {
         this.volume = volume;
     }
 
-    private int volume;
-    public MusicPlayer() {}
+
+    public MusicPlayer(Music music) {
+        this.music = music;
+    }
 
     public void setMusic(Music music) { this.music = music;}
     public void playMusic() {

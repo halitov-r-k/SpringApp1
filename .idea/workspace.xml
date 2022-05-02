@@ -7,6 +7,8 @@
     <list default="true" id="a423b31f-e36d-4534-b88a-72c20cf1c627" name="Changes" comment="Scope">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AlishevStudy/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlishevStudy/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AlishevStudy/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlishevStudy/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AlishevStudy/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlishevStudy/RockMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AlishevStudy/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlishevStudy/TestSpring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
@@ -42,14 +44,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "spring.configuration.checksum": "196df5f1231a3593e8f13bc119149939"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AlishevStudy.TestSpring" />
@@ -73,6 +76,8 @@
       <option name="presentableId" value="Default" />
       <updated>1651166564190</updated>
       <workItem from="1651166573566" duration="1613000" />
+      <workItem from="1651403940964" duration="673000" />
+      <workItem from="1651455295883" duration="3455000" />
     </task>
     <servers />
   </component>
