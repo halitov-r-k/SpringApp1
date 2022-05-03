@@ -1,18 +1,17 @@
 package AlishevStudy;
 
 import org.springframework.stereotype.Component;
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
 @Component
+//@Scope("prototype")
 public class ClassicalMusic implements Music {
-    private ClassicalMusic() {}
-
-    public static ClassicalMusic getClassicalMusic() {
-        System.out.println("Get Classical Music");
-        return new ClassicalMusic();
-    }
-    public void doMyInit() {
+    @PostConstruct
+    public void doMyDestroy() {
         System.out.println("Do my initialization");
     }
+    @PreDestroy
     public void doDestroy() {
         System.out.println("Do my destroy");
     }

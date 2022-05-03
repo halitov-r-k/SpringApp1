@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a423b31f-e36d-4534-b88a-72c20cf1c627" name="Changes" comment="Scope">
+    <list default="true" id="a423b31f-e36d-4534-b88a-72c20cf1c627" name="Changes" comment="@Component">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AlishevStudy/Computer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AlishevStudy/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlishevStudy/ClassicalMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AlishevStudy/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlishevStudy/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AlishevStudy/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlishevStudy/RockMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AlishevStudy/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlishevStudy/TestSpring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
@@ -22,11 +32,24 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,20 +62,29 @@
     </option>
   </component>
   <component name="ProjectId" id="28PRailmKXxue4C2utjmPi3PWwn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "spring.configuration.checksum": "196df5f1231a3593e8f13bc119149939"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="AlishevStudy" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AlishevStudy.TestSpring" />
@@ -77,8 +109,17 @@
       <updated>1651166564190</updated>
       <workItem from="1651166573566" duration="1613000" />
       <workItem from="1651403940964" duration="673000" />
-      <workItem from="1651455295883" duration="3455000" />
+      <workItem from="1651455295883" duration="11996000" />
+      <workItem from="1651501149024" duration="2661000" />
     </task>
+    <task id="LOCAL-00001" summary="@Component">
+      <created>1651459701821</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651459701821</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,9 +137,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="DI-1" />
     <MESSAGE value="DI-2" />
     <MESSAGE value="Scope" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scope" />
+    <MESSAGE value="@Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Component" />
   </component>
 </project>
